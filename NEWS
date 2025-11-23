@@ -61,7 +61,7 @@
       <article class="card-hover glass rounded-2xl p-6 shadow-lg transition duration-300">
         <img src="https://github.com/zanahda06-tech/mine/blob/main/image%20(10).png?raw=true"
              class="w-full h-40 object-cover rounded-xl mb-4 shadow-md" />
-        <h3 class="text-xl font-bold mb-2">Portofolio</h3>
+        <h3 class="text-xl font-bold mb-2">PORTOFOLIO</h3>
         <p class="text-sm text-slate-600 mb-4">Kumpulan pekerjaan & proyek.</p>
 
         <div class="flex items-center justify-between">
@@ -171,24 +171,64 @@
     <!-- === KONTEN DETAIL (disembunyikan) === -->
     <section class="hidden">
 
+      <!-- PARIWISATA + MAPS -->
       <article id="pariwisata" class="p-2">
         <h3 class="text-2xl font-semibold mb-2">Alun-Alun Kejaksan</h3>
-        <p>Alun-Alun Kejaksan merupakan pusat bersejarah Cirebon...</p>
+        <p class="mb-4">
+          Alun-Alun Kejaksan merupakan pusat bersejarah dan ruang publik vital di Cirebon yang namanya diambil dari jabatan Pangeran Kejaksan (Syarif Abdurrahim), seorang jaksa atau pengurus hukum agama pada masa Kesultanan Cirebon di abad ke-15. Sejak awal, alun-alun ini berfungsi sebagai pusat kegiatan sosial, politik, dan upacara kenegaraan Kesultanan, dan kemudian menjadi saksi penting sejarah modern, termasuk perlawanan terhadap kolonial Belanda dan lokasi pembacaan Teks Proklamasi di Cirebon. Setelah mengalami revitalisasi besar yang selesai pada tahun 2021, alun-alun ini kini tampil modern dengan fasilitas lengkap, termasuk basement parkir, Gapura Candi Bentar, dan Plaza Memorial, menjadikannya ruang publik terpadu yang berdampingan dengan Masjid Raya At-Taqwa.
+        </p>
+
+        <!-- GOOGLE MAPS -->
+        <h4 class="text-lg font-semibold mb-2">Lokasi:</h4>
+        <div class="w-full h-64 rounded-xl overflow-hidden shadow-md">
+          <iframe 
+            width="100%" height="100%" style="border:0;"
+            loading="lazy" allowfullscreen
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126643.5662688819!2d108.491953!3d-6.721922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f05d4ed268c1f%3A0x5de29ea812f05a75!2sAlun-Alun%20Kejaksan!5e0!3m2!1sen!2sid!4v1708940112345">
+          </iframe>
+        </div>
+
+        <p class="mt-3 text-sm text-slate-600">
+          Alamat: Jl. Siliwangi No.01, Kebonbaru, Kec. Kejaksan, Kota Cirebon, Jawa Barat 45124
+        </p>
       </article>
 
+      <!-- SEJARAH -->
       <article id="sejarah" class="p-2">
         <h3 class="text-2xl font-semibold mb-2">Sejarah Kota Cirebon</h3>
-        <p>Cirebon bermula dari Caruban Nagari...</p>
+        <p>Sejarah Kota Cirebon dimulai dari dukuh nelayan bernama Caruban Nagari (Negeri Campuran) yang tumbuh pesat berkat lokasinya sebagai pelabuhan penting yang dipimpin oleh Ki Gedeng Alang-Alang. Kota ini mencapai puncak kejayaan dan kemerdekaannya dari Pajajaran pada tahun 1482 M di bawah kepemimpinan Sunan Gunung Jati (Syarif Hidayatullah), menjadikannya pusat utama penyebaran Islam dan peradaban di Jawa Barat. Setelah masa keemasan, Kesultanan Cirebon terpecah menjadi beberapa keraton dan kemudian berada di bawah kendali kolonial Belanda yang mengubahnya menjadi Gemeente Cheribon. Saat ini, Cirebon dikenal sebagai "Kota Udang" dan "Kota Wali", sebuah kota multikultural yang mewarisi kekayaan budaya perpaduan Sunda, Jawa, Tionghoa, dan Islam.</p>
       </article>
 
+      <!-- KULINER + MAPS (DITAMBAHKAN) -->
       <article id="kuliner" class="p-2">
         <h3 class="text-2xl font-semibold mb-2">Pusat Kuliner Moh. Toha</h3>
-        <p>Kawasan kuliner malam terpopuler di Cirebon...</p>
+        <p class="mb-4">
+          Jalan Moh. Toha sebagai pusat kuliner merupakan fenomena perkembangan street food modern di Cirebon
+          yang didukung oleh keberadaan pedagang legendaris seperti Bubur Ayam Moh Toha yang telah berdiri sejak 1967.
+          Kawasan ini dipenuhi pedagang kaki lima setiap sore hingga malam, menjual aneka kuliner khas dan jajanan.
+        </p>
+
+        <!-- GOOGLE MAPS untuk Kebonbaru, Kejaksan, Cirebon (45121) -->
+        <h4 class="text-lg font-semibold mb-2">Lokasi:</h4>
+        <div class="w-full h-64 rounded-xl overflow-hidden shadow-md">
+          <iframe
+            width="100%" height="100%" style="border:0;"
+            loading="lazy" allowfullscreen
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=Kebonbaru,+Kec.+Kejaksan,+Kota+Cirebon,+Jawa+Barat+45121&output=embed">
+          </iframe>
+        </div>
+
+        <p class="mt-3 text-sm text-slate-600">
+          Alamat: Kebonbaru, Kec. Kejaksan, Kota Cirebon, Jawa Barat 45121
+        </p>
       </article>
 
+      <!-- KEAGAMAAN -->
       <article id="keagamaan" class="p-2">
         <h3 class="text-2xl font-semibold mb-2">Tradisi Muludan</h3>
-        <p>Tradisi yang dirayakan setiap Maulid Nabi...</p>
+        <p>Muludan adalah perayaan sakral Maulid Nabi Muhammad SAW di Cirebon yang berlangsung selama satu bulan penuh di bulan Rabiul Awal, berakar kuat pada masa Sunan Gunung Jati sebagai metode dakwah kultural. Inti dari perayaan ini adalah Pawai Panjang Jimat, sebuah prosesi adat di mana pusaka-pusaka Keraton Cirebon (terutama piring peninggalan) diarak dan dicuci sebagai bentuk penghormatan, dan air bekas pencuciannya dipercaya membawa berkah. Bersamaan dengan ritual sakral ini, diselenggarakan pula Pasar Malam Muludan atau Sekaten yang meriah selama sebulan penuh di sekitar Alun-Alun Kasepuhan, menjadikannya pusat hiburan, ekonomi, dan pertemuan rakyat, menunjukkan perpaduan harmonis antara tradisi Islam dan budaya lokal Cirebon.</p>
       </article>
 
     </section>
@@ -197,24 +237,27 @@
   </main>
 
 
-
-
-
-  <!-- ======================
-       SCRIPT (SUDAH DIBENARKAN)
-  ======================= -->
+  <!-- SCRIPT -->
   <script>
     function openModal(targetId) {
       const modal = document.getElementById('modal');
       const modalBody = document.getElementById('modalBody');
       const content = document.getElementById(targetId);
 
+      if (!content) return;
       modalBody.innerHTML = content.innerHTML;
       modal.classList.remove('hidden');
+
+      // optional: lock page scroll
+      document.documentElement.style.overflow = 'hidden';
+      document.body.style.overflow = 'hidden';
     }
 
     function closeModal() {
       document.getElementById('modal').classList.add('hidden');
+      // restore scroll
+      document.documentElement.style.overflow = '';
+      document.body.style.overflow = '';
     }
   </script>
 
